@@ -8,7 +8,7 @@ public class FileProduct {
         this.filePath = filePath;
     }
 
-    public LinkedList loadProduct() {
+    public LinkedList loadProduct() { //1
         LinkedList products = new LinkedList();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -33,7 +33,7 @@ public class FileProduct {
         return products;
     }
 
-    public void updateProduct(LinkedList products) {
+    public void updateProduct(LinkedList products) { //2
         try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
 
             Object data = products.getFirst();

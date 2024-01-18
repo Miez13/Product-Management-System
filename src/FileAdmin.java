@@ -8,7 +8,7 @@ public class FileAdmin {
         this.filePath = filePath;
     }
 
-    public LinkedList loadAdmin() {
+    public LinkedList loadAdmin() { //1
         LinkedList admins = new LinkedList();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;

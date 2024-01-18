@@ -1,14 +1,5 @@
 public class LinkedList {
 
-    private class Node {
-        private Object data;
-        private Node next;
-        
-        public Node(Object obj) {
-            data = obj;
-        }
-    }
-
     private Node first;
     private Node last;
     private Node current;

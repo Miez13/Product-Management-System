@@ -12,7 +12,7 @@ public class FileReview {
         this.filePath = filePath;
     }
 
-    public Queue loadReview() {
+    public Queue loadReview() { //1
         Queue reviews = new Queue();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -38,7 +38,11 @@ public class FileReview {
         return reviews;
     }
 
+<<<<<<< HEAD
     public void updateReview(Queue reviews) {
+=======
+    public void updateReview(Queue reviews) { //2
+>>>>>>> df0217a39292ff60042f07e35d4852006292df83
         try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
             Queue tempQueue = new Queue();
     

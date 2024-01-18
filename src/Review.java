@@ -53,7 +53,7 @@ public class Review {
         return rating;
     }
 
-    public String toString() {
+    public String toString() { //1
         return (this.productName + "|" + this.reviewTitle + "|" + this.reviewType + "|" + this.reviewDescription + "|" + this.rating);
     }
     

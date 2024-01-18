@@ -53,7 +53,7 @@ public class Product {
         return productAvailability;
     }
 
-    public String toString() {
+    public String toString() { //1
         return (this.productID + "," + this.productName + "," + this.productBrand + "," + this.productPrice + "," + this.productAvailability);
     }
 

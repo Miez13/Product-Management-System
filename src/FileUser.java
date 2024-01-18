@@ -8,7 +8,7 @@ public class FileUser {
         this.filePath = filePath;
     }
 
-    public LinkedList loadUser() {
+    public LinkedList loadUser() { //1
         LinkedList users = new LinkedList();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -30,7 +30,7 @@ public class FileUser {
         return users;
     }
 
-    public void updateUser(LinkedList users) {
+    public void updateUser(LinkedList users) { //2
         try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
 
             Object data = users.getFirst();

@@ -21,7 +21,7 @@ public class Product {
         this.productName = productName;
     }
 
-    public void setBrand(String brand) {
+    public void setProductBrand(String brand) {
         this.productBrand = brand;
     }
 

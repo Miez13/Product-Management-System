@@ -1,3 +1,4 @@
 muqri:1115
 hakimi:1234
 haikal:4567
+newUser:123

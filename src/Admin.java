@@ -10,6 +10,14 @@ public class Admin {
         this.password = password;
     }
 
+    public void setAdminID(int adminID){
+        this.adminID = adminID;
+    }
+    
+    public void setPassword(String password){
+        this.password = password;
+    }
+
     public int getAdminID() {
         return adminID;
     }
@@ -249,7 +257,7 @@ public class Admin {
         while (data != null) {
             Product product = (Product) data;
             if (product.getProductID().equalsIgnoreCase(productID)) {
-                product.setBrand(newProductBrand);
+                product.setProductBrand(newProductBrand);
                 updated = true;
                 break;
             }

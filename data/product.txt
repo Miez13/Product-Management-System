@@ -7,14 +7,14 @@ F1113,Chicken Frankfurters - Cheese,Ayamas,7.0,Available
 F1114,Chicken Frankfurters - Mushroom,Ayamas,7.0,Out of Stock
 F1201,Roti Canai,KAWAN,15.0,Available
 F1202,Roti Chapatti,KAWAN,6.0,Out of Stock
-F1203,Mozzarella Cheese Sticks,KAWAN,25.0,AvailChickenable
+F1203,Mozzarella Cheese Sticks,KAWAN,25.0,Available
 F1204,Vadai,KAWAN,7.5,Out of Stock
 F1205,Chicken Rendang Bun,KAWAN,7.6,Available
 B2011,Green Tea Latte,BOH,14.5,Available
 B2012,3 In 1 Vanilla Tea Less Sugar,BOH,12.0,Available
 B2013,3 In 1 Original Tea Less Sugar,BOH,10.5,Available
 B2014,JUMBO Potbag KAW,BOH,6.5,Available
-B2111,Lemon Ginseng Green Tea,Lipton,12.0,Available
+B2110,Lemon Ginseng Green Tea,Lipton,12.0,Available
 B2112,Lipton Milk Tea 3in1 Classic,Lipton,15.0,Available
 B3111,Alicafe Tongkat Ali & Ginseng Original,Power Root,14.8,Available
-B3112,Per'l Kacip Fatimah & Collagen Cafe,Power Root,16.0,Available
+B3113,Per'l Kacip Fatimah & Collagen Cafe,Power Root,16.0,Available

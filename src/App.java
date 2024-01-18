@@ -194,7 +194,7 @@ public class App
             int option = sc.nextInt();
             sc.nextLine();
 
-            if (option == 1) 
+            if (option == 1) //add user
             {
                 System.out.print("\nRegister username: ");
                 String username = sc.next();
@@ -234,7 +234,7 @@ public class App
                 clearConsole();  
             }
 
-            else if (option == 2) 
+            else if (option == 2) //remove user
             {            
                 System.out.print("\nEnter username: ");
                 String username = sc.next();
@@ -274,7 +274,7 @@ public class App
                 clearConsole();
             }
 
-            else if (option == 3) 
+            else if (option == 3) //remove review
             {
                 System.out.println("\nEnter product name");
                 String productName = sc.nextLine();
@@ -308,7 +308,7 @@ public class App
                 clearConsole();
             }
 
-            else if (option == 4) 
+            else if (option == 4) //add product
             {                 
                 System.out.println("\nEnter product id");
                 String productID = sc.nextLine();
@@ -351,7 +351,7 @@ public class App
             }
             
 
-            else if (option == 5) 
+            else if (option == 5) //remove product
             {                   
                 System.out.println("\nEnter product name : ");
                 String productName = sc.nextLine();
@@ -387,7 +387,7 @@ public class App
                 clearConsole();
             }
 
-            else if(option == 6)
+            else if(option == 6) //update price
             {
                 System.out.println("\n=============================");
                 System.out.println("           UPDATE           ");
@@ -483,7 +483,7 @@ public class App
             sc.nextLine();
             clearConsole();
 
-            if (option == 1) 
+            if (option == 1) // display product
             {
                 System.out.println("==============================================================");
                 System.out.println("                        Product list                          ");
@@ -539,7 +539,7 @@ public class App
                 clearConsole();
             }
 
-            else if (option == 2) 
+            else if (option == 2) //display review
             {
                 System.out.println("==============================================================");
                 System.out.println("                         Review List                          ");
@@ -592,7 +592,7 @@ public class App
                 clearConsole();
             }
 
-            else if (option == 3) 
+            else if (option == 3) //add review
             {                
                 System.out.println("\nEnter product name");
                 String productName = sc.nextLine();
@@ -641,7 +641,7 @@ public class App
                 clearConsole();
             }
 
-            else if (option == 4) 
+            else if (option == 4) //update review
             {
                 System.out.println("\n=============================");
                 System.out.println("         UPDATE REVIEW         ");

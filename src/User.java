@@ -10,6 +10,14 @@ public class User
         this.userID = userID;
     }
 
+    public void setUserName(String userName){
+        this.userName = userName;
+    }
+
+    public void setUserID(int userID){
+        this.userID = userID;
+    }
+
     public String getUserName() {
         return userName;
     }

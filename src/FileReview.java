@@ -38,26 +38,6 @@ public class FileReview {
         return reviews;
     }
 
-    /*public void updateReview(Queue reviews) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
-            Queue tempQueue = new Queue();
-
-            while (!reviews.isEmpty()) {
-                Review review = (Review) reviews.dequeue();
-                String entry = review.toString();
-                writer.println(entry);
-                tempQueue.enqueue(entry);
-            }
-
-            while(!tempQueue.isEmpty()){
-                reviews.enqueue(tempQueue.dequeue());
-            }
-            
-        } catch (IOException e) {
-            System.out.println("Error writing to user file: " + e.getMessage());
-        }
-    }*/
-
     public void updateReview(Queue reviews) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
             Queue tempQueue = new Queue();
